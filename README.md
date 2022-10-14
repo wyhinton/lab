@@ -58,7 +58,7 @@ requirements, such as:
 > The REST API has to written in Java, Python or Typescript. It can use any
 > framework/library that you desire;
 
-✔️ The backend is written in Typescript using Express. The express server handles operations to a MongoDB database, and manages authentication.
+✔️ The backend is written in Typescript using Express. The express server handles requests to a MongoDB database, and manages authentication.
 See the following diagram of the client side.
 
 ---
