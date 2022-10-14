@@ -1,0 +1,17 @@
+{
+  "name": "challenge-monorepo",
+  "description": "Mono-repository with React client, express server and shared typescript module",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "yarn workspaces foreach -pi run start",
+    "build": "yarn workspaces foreach -pti run build"
+  },
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  },
+  "packageManager": "yarn@3.0.0"
+}
