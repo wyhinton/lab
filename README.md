@@ -78,11 +78,13 @@ Client side graph:
 
 ## ✔️Installation Instructions
 
-1. Download this repository with git clone \***\*\_\*\***
+1. Download this repository with git clone
 2. Make sure you have yarn installed globally
-3. Cd your terminal shell into the directory
-4. Run `yarn install`
-5. Run `yarn start` to start both server and client. The server will start on port 1337 and the client on 3000, make sure you do not have any other processes running on these ports
+3. Make sure you're using the latest version of yarn `yarn set version berry`
+4. Cd your terminal shell into the directory
+5. Run `yarn install`
+6. Run `yarn start` to start both server and client. The server will start on port 1337 and the client on 3000, make sure you do not have any other processes running on these ports
+7. Login with username and password "admin"
 
 ---
 
